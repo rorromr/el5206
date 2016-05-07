@@ -18,7 +18,7 @@ define hokuyolaser ranger
 
 define my_block model
 (
-  size [0.100 0.100 0.05]
+  size [0.100 0.100 1.0]
   gui_nose 0
 )
 
@@ -64,13 +64,13 @@ window
 )
 
 # load an environment bitmap
-floorplan
-( 
-  name "cave"
-  size [13.000 13.000 0.800]
-  pose [0.000 0.000 0.000 0.000]
-  bitmap "cave.png"
-)
+# floorplan
+# ( 
+#   name "cave"
+#   size [13.000 13.000 0.800]
+#   pose [0.000 0.000 0.000 0.000]
+#   bitmap "cave.png"
+# )
 # set the resolution of
 
 
@@ -166,3 +166,7036 @@ my_block
 #  hokuyolaser(pose [ 0.225 0.000 -0.150 0.000 ])
 # )
 
+
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [172.6507 0.75334 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [50.3301 0.43922 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [50.1135 0.87473 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [48.094 1.0494 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [49.2566 1.2898 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [49.4105 1.5096 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [49.8251 1.7399 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [49.1496 1.9311 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [44.8401 1.9578 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [42.7086 2.0514 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [36.0365 1.8886 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.7581 1.9169 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.5233 2.0504 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.4712 2.1938 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.3755 2.3338 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [32.9911 2.4517 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.3695 2.6262 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.5835 2.7906 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.6294 2.9422 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.7212 3.0985 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [34.0923 3.2827 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [41.4272 4.1715 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [43.9843 4.6229 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [39.4671 4.3224 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [38.7959 4.4202 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [38.2564 4.5279 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [38.0463 4.6715 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [37.0064 4.7078 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [36.6873 4.83 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [36.6311 4.9853 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [36.315 5.1037 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [35.9947 5.219 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [39.0623 5.8379 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.2993 5.1253 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [33.0991 5.2424 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [32.9102 5.3598 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.254 2.1056 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.3409 2.176 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.0468 2.1784 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.9988 2.2238 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.9736 2.2733 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.8869 2.3106 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.9227 2.3716 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.7782 2.3963 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.7944 2.4532 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.0167 2.5542 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.0665 2.6199 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.91 2.6404 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.6736 2.6415 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.7077 2.7029 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.8212 2.7835 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.6191 2.7895 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.6523 2.8513 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.5526 2.8804 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.6194 2.951 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.7426 3.0368 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.4912 3.0254 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.444 3.0664 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.4192 3.1132 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.3979 3.1609 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.4592 3.2318 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.4938 3.2958 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.1619 3.5449 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.2549 3.6301 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.239 3.6835 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [22.4657 6.8685 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [24.7037 7.6707 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.022 3.7905 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.9942 3.8394 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [26.2466 8.6548 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [25.9715 8.6899 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [25.8445 8.773 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [25.5475 8.7967 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [25.2286 8.8102 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [25.0757 8.8798 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [24.9228 8.9482 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [34.7576 12.6507 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [24.382 8.995 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [24.0937 9.0083 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.5648 7.4124 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [23.9266 9.1846 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [44.0811 17.1422 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [23.4458 9.2355 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [22.4765 8.9672 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [43.0344 17.387 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [22.4335 9.1778 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [22.2922 9.2337 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [22.0031 9.2267 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.3198 8.2008 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.1977 8.248 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.2296 8.3613 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.1858 8.4419 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.1595 8.5303 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.0117 8.5641 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.063 8.6875 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [18.922 8.7232 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [20.7141 9.6591 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [18.9794 8.9513 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [20.1918 9.631 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [20.0828 9.6868 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.6506 9.5842 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.3003 9.5178 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.1956 9.5706 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.1502 9.6525 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.0244 9.6934 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.0687 9.821 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [19.0361 9.9096 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [18.042 9.4924 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [18.9075 10.0533 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [18.4746 9.9268 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [18.2595 9.9141 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.7777 9.7532 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.8033 9.8685 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.9168 10.0339 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.7369 10.0351 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.1605 9.808 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.8787 10.3223 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.7322 10.3411 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.6062 10.3708 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.4835 10.4016 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.3878 10.4476 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [17.2251 10.4525 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.4233 10.0642 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.9539 10.4914 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.3282 10.203 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.6668 10.516 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.5483 10.5424 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.3805 10.5363 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.2722 10.5673 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.1148 10.5654 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.694 10.3876 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.2783 10.2086 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.3372 10.3451 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.1402 10.3086 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.3461 10.5471 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.2294 10.565 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.3911 10.777 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.2897 10.8057 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.794 10.5525 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.0173 10.8109 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.9542 10.8648 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.8247 10.8699 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.7646 10.9252 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.6291 10.9241 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.5408 10.9573 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.014 10.6565 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.4012 11.0504 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.3004 11.0725 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.1996 11.0939 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.059 11.0832 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.983 11.1226 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.8856 11.1444 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.6061 11.018 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.7273 11.2157 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.5969 11.2084 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.5238 11.2476 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.3878 11.2337 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.2105 11.1835 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.1794 11.2563 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.0621 11.255 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.0246 11.3221 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.9457 11.3531 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.8727 11.3888 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.7617 11.3902 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [7.2486 6.5266 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [7.2518 6.5871 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [7.2 6.5976 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [7.0707 6.5361 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9564 6.487 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9025 6.4932 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9619 6.6066 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9612 6.6639 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9798 6.7404 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9392 6.7598 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.918 6.7983 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9715 6.9109 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9606 6.9606 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9109 6.9715 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.6532 6.7703 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.6181 6.7937 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.6291 6.8646 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.3884 6.6734 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.128 6.4575 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.0971 6.4814 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.1886 6.6365 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.1039 6.6032 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.1225 6.6816 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.1196 6.7371 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.0535 6.7231 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9461 6.6621 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9066 6.6762 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.8671 6.6902 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9302 6.8219 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9156 6.8654 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.1063 7.1496 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.0069 7.0957 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9809 7.1278 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.6875 6.8385 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.675 6.8843 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.8253 7.1299 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9785 7.3829 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.8876 2.3518 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.8821 2.3662 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.8766 2.3805 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.8734 2.3979 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.6989 7.3602 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9497 7.7538 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.7544 2.3072 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.7396 2.3086 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.7319 2.3193 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.7101 2.3111 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6908 2.3059 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.683 2.3164 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6683 2.3174 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.665 2.3342 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6525 2.3383 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6647 2.3775 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6476 2.3751 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6439 2.3919 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4686 2.1569 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4307 2.1212 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4258 2.1339 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4402 2.1759 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5014 2.29 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5403 2.3719 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5215 2.3654 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4986 2.3523 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4862 2.3555 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4842 2.3752 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4697 2.375 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4593 2.3814 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.453 2.3944 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4365 2.3907 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.434 2.4104 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4374 2.4402 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4346 2.4599 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4297 2.4763 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.9897 12.2294 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [67.0331 118.4806 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.8292 12.1945 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.6131 11.9304 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.1965 11.2947 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.1434 11.3148 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.0256 11.2142 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.8464 10.9955 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9148 11.2421 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.6799 10.9109 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.6394 10.9495 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.643 11.0749 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.5137 10.939 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.452 10.935 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.7052 3.4579 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6781 3.4407 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6563 3.4339 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6296 3.4164 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6146 3.4235 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6013 3.4341 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5749 3.4162 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5616 3.4266 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5482 3.4369 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5364 3.4508 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5182 3.4503 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5156 3.4855 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5096 3.5137 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4973 3.5274 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.4849 3.5411 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.9972 9.6502 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.9699 9.7037 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.9173 9.6956 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.8851 9.738 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.8554 9.7876 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.7688 9.6914 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.6859 9.602 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.8017 10.0344 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.8537 31.7042 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [4.0304 10.9248 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.5659 31.777 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.8768 10.7978 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.2751 31.8399 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.7326 10.8402 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.5396 10.4273 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.6366 10.8687 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.5011 10.6173 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.4173 10.5173 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.3118 10.3461 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [3.027 9.6005 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.86414 2.783 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.85313 2.7905 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.83644 2.7792 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.8232 2.7791 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.81107 2.7826 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.79999 2.7899 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.78993 2.8009 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.77562 2.7968 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.76546 2.8077 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.75421 2.8148 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.74491 2.8294 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.72962 2.8212 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.72596 2.8585 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.70781 2.8389 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.69449 2.8381 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.68119 2.8373 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.67328 2.8593 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [2.4354 10.7631 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [2.2329 10.0719 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [2.1466 9.8868 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [2.1579 10.1521 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [2.0945 10.0696 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.90494 4.4479 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.88477 4.448 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.86833 4.4672 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.85174 4.4863 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.8587 10.0284 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.8093 10.0057 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.7731 10.0558 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.4192 31.5378 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.1668 30.8754 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.6194 9.9432 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [4.88 30.8112 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.22105 1.4362 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.20959 1.4024 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.20235 1.3956 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.18919 1.3461 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.18437 1.3547 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.17641 1.34 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.17106 1.3446 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.16519 1.3454 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.15932 1.3461 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.15433 1.3545 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.14672 1.3396 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.14169 1.348 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.13658 1.3564 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.13179 1.3687 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.12546 1.3653 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.12018 1.3737 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.11257 1.3547 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.10512 1.3357 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.10161 1.3673 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.09428 1.3483 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.089929 1.3721 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.083703 1.3685 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.07751 1.365 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.071962 1.3731 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.065783 1.3695 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.060317 1.3815 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.053062 1.3505 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.048396 1.3859 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.04211 1.3783 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.036505 1.3941 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.030251 1.3864 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.024679 1.4138 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.018152 1.3866 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.012135 1.3906 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.0060336 1.3828 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 1.3477 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.0058291 1.3359 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.011522 1.3203 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.016873 1.289 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.022565 1.2928 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.02795 1.2809 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.033539 1.2808 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.039247 1.2846 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.045124 1.2922 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.050148 1.2764 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.056399 1.2917 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.062034 1.2915 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.06726 1.2834 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.073523 1.2948 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.078695 1.2867 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.084564 1.2902 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.090193 1.2898 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.09582 1.2894 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.10053 1.2773 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.10674 1.2846 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.11235 1.2842 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.11724 1.2759 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.12318 1.2792 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.12993 1.2903 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.13597 1.2937 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.14119 1.2892 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.14681 1.2885 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.15289 1.2918 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.16043 1.3066 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.16465 1.2943 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.17081 1.2974 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.17805 1.3083 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.18375 1.3075 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.18889 1.3028 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.19573 1.3097 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.20263 1.3165 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.2842 27.0495 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.4002 8.5977 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.5375 27.1151 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.7319 27.5378 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.7977 27.2092 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.5459 8.5489 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.1111 27.5772 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.2176 27.4817 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.3635 27.5929 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.5987 27.5183 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.698 27.3942 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.1159 38.1821 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.3139 38.2914 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.8318 21.795 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.7124 38.5032 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.911 38.598 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-9.1215 38.7375 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.1677 21.5251 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.2579 21.4871 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.0686 8.2968 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.3846 21.2019 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.4859 21.2123 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.3939 39.4789 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.203 8.2217 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.8007 39.6166 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.0173 39.7272 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.2404 39.8554 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.6949 40.1233 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.9098 40.2068 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-12.1425 40.3452 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.4794 8.1099 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.8653 25.3304 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.9346 25.1655 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.95481 2.9386 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.96518 2.927 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.97918 2.9265 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.99571 2.9333 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.98306 2.855 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.98006 2.8065 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.98838 2.7911 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.99923 2.7831 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.0167 2.7934 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.0248 2.7779 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.0575 2.8283 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.0795 2.8492 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.1087 2.8883 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.117 2.8725 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.1324 2.8748 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.1536 2.8916 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.1604 2.8721 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.1744 2.8706 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.1974 2.8907 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.2906 3.004 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.2928 2.9733 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.2963 2.9462 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.3092 2.9405 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.2723 2.8243 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.2554 2.7548 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.3165 2.8557 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.2926 2.772 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.323 2.8052 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.3302 2.7888 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.3118 2.7197 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.2826 2.6297 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.275 2.5855 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.2724 2.552 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.3116 2.6022 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.8483 7.5527 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.8383 7.4525 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.6417 6.9956 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.4867 6.627 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.4066 2.6454 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.4144 2.6323 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.4277 2.6296 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.4336 2.6131 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.4525 2.6204 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.464 2.6141 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.4967 4.413 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.5276 4.4224 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.5332 4.3876 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.5622 4.3934 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.5793 4.3788 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.5984 4.3675 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.6376 4.3896 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.6384 4.348 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.6635 4.3465 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.6783 4.3282 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.7013 4.3231 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.7202 4.3112 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.739 4.2993 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.7598 4.2906 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.7891 4.2949 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.8057 4.2794 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.8265 4.2704 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.8451 4.258 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.8659 4.2488 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.8866 4.2395 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.905 4.2269 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.9257 4.2174 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.9441 4.2046 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.9714 4.2044 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.9897 4.1914 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.008 4.1783 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.0308 4.1715 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.0582 4.1708 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.0694 4.148 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.1038 4.1565 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.1149 4.1336 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.14 4.1293 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.1603 4.1186 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.1807 4.1079 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.201 4.097 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.2164 4.08 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.2463 4.0812 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.2568 4.0578 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.2793 4.0497 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.3044 4.0444 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.3369 4.048 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.3446 4.0214 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.3696 4.0157 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.3896 4.004 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.4045 3.9862 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.4244 3.9743 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.452 3.9711 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.477 3.9648 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.4995 3.9554 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.5245 3.9489 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.5286 3.9189 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.5509 3.9093 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.597 3.9254 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.5982 3.8925 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.6231 3.8853 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.6588 3.8894 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.673 3.8706 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.6872 3.8517 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.7175 3.8496 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.7397 3.8389 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.7564 3.8226 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.7868 3.82 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.7979 3.7979 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.8283 3.7951 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.8616 3.7948 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.8725 3.7724 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.8861 3.7528 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9222 3.7547 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9414 3.7402 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.952 3.7177 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.991 3.7217 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.013 3.7095 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.0406 3.7026 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.0567 3.6849 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.0844 3.6776 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.0917 3.6519 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.128 3.6522 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.1557 3.6444 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.1715 3.6263 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.2021 3.6208 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.2327 3.6151 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.2485 3.5966 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.2731 3.5855 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.2917 3.5694 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.3193 3.5605 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.3378 3.5441 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.3714 3.5399 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.3899 3.5233 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.4266 3.5211 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.4481 3.5066 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.4664 3.4896 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.497 3.482 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.5029 3.4552 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.549 3.4592 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.5797 3.451 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.5916 3.4287 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.6096 3.4109 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.6465 3.407 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.6771 3.3981 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.7046 3.3868 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.7193 3.3663 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.7499 3.3569 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.7773 3.3451 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.8015 3.3309 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.8321 3.321 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.8465 3.2999 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.8803 3.2918 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.9206 3.2878 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.9479 3.275 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.9589 3.2512 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.9927 3.2423 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.0429 3.2437 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.0538 3.2196 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.0744 3.2017 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.1214 3.2002 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.142 3.1819 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.1458 3.1534 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.1829 3.1451 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9008 2.3438 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9244 2.3348 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9245 2.3117 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9649 2.3122 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9614 2.2871 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9747 2.2717 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.9948 2.2601 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.4327 3.0424 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.4698 3.032 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.4761 3.0043 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.5029 2.9878 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.5537 2.9841 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.5667 2.9599 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.6211 2.9574 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.6339 2.9328 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.6918 2.9315 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.6976 2.9031 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.759 2.9028 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.7856 2.8846 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.8157 2.868 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.8351 2.846 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.8616 2.8273 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.9021 2.8151 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.939 2.801 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.9689 2.7833 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.0058 2.7687 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.0356 2.7506 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.0796 2.7387 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.1129 2.7216 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.1354 2.6997 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.1794 2.6869 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.2054 2.6661 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.2458 2.6512 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.2789 2.633 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.3084 2.613 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.345 2.5958 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.3816 2.5783 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.44 2.5693 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.4657 2.5469 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.5204 2.5357 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.5715 2.5226 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.5788 2.4925 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.6262 2.4774 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.7872 2.5039 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.1321 2.5959 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.1213 2.5568 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.2502 2.5674 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.3167 2.5551 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.2908 2.5104 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.3868 2.5075 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.3791 2.469 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.3045 2.4087 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.4227 2.4118 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.4332 2.3794 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.436 2.3446 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.5805 2.3538 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.6019 2.3241 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.6606 2.3056 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.708 2.2832 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.7217 2.2507 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.7802 2.2309 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.8387 2.2108 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.7166 2.14 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.2497 2.2491 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.8821 2.112 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.9064 2.0816 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0326 2.0774 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.8636 1.9971 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.1414 2.0299 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0933 1.9804 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.2689 1.9852 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.2927 1.9527 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0119 1.8497 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0428 1.8199 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.4015 1.8626 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.1118 1.7612 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0277 1.7063 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.559 1.7803 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.582 1.746 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.2754 1.6461 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.1521 1.5846 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.4928 1.6124 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.5075 1.5768 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.4912 1.5355 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.5286 1.5038 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.6236 1.4818 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.6724 1.4513 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.721 1.4203 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.7889 1.392 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.8566 1.3632 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.932 1.3349 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.2442 2.3553 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.3356 2.2958 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.5699 2.2551 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.7229 2.2016 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.8662 5.0716 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.1718 2.1084 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.3321 2.0514 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.4612 1.9895 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.0639 1.9783 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.1228 1.9048 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.131 1.8257 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.1115 1.7439 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.0995 1.6631 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.0677 1.5807 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.2418 1.5158 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.478 1.4543 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-19.832 1.4738 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-20.1929 1.412 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-20.499 1.3436 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-20.5086 1.2544 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.0715 1.1965 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.5212 1.1279 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.0527 1.0593 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.3342 0.97513 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.3929 0.87982 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.8968 0.76465 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.3489 0.68282 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.3322 0.58479 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.3736 0.48819 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.9145 0.39997 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-29.2631 0.38308 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.4009 0.33512 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.6481 0.16864 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-35.375 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.8863 -0.16967 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.0298 -0.34061 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.0826 -0.51162 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.6855 -0.67526 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.8501 -0.84771 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.4201 -1.0323 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.5167 -1.2073 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.6438 -1.3844 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.0884 -0.86786 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-40.0283 -1.7477 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.0206 -1.154 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.0777 -2.219 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-41.8321 -2.7418 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-41.4768 -2.9003 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-42.2039 -3.1363 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-40.3687 -3.3544 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-40.8595 -3.5747 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-41.6021 -3.8227 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.1954 -2.4308 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.1186 -2.5201 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-98.3409 -11.6394 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-98.2466 -12.0632 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.866 -2.8787 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.7023 -2.9536 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.8671 -3.0732 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.8419 -3.1669 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-84.3767 -14.4986 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-83.497 -16.6086 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-77.6405 -16.503 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-83.225 -18.0699 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-83.1682 -18.4379 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-83.2699 -18.842 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-83.4951 -19.2764 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-83.6004 -19.6853 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-77.9274 -19.0687 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-77.7942 -19.3963 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-70.9204 -18.0115 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-77.2665 -19.9825 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-73.4237 -19.3309 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-77.1043 -20.66 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-77.4393 -21.1124 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-72.421 -20.4248 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-72.2148 -20.7073 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-71.9062 -20.9588 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-68.8852 -20.4047 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-71.2306 -21.438 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-64.1994 -19.6277 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-64.1057 -19.9054 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-69.4351 -21.8928 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-69.3054 -22.1848 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-64.891 -21.0844 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-64.3829 -21.2303 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.7031 -5.5888 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.7414 -5.6829 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.794 -5.7827 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.6728 -5.8224 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.6325 -5.8899 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-53.9264 -19.3616 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.5768 -6.0334 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.6053 -6.126 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-57.3712 -21.4502 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-63.5527 -24.078 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-61.1678 -23.4801 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-61.2176 -23.8062 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-61.2367 -24.1218 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-61.1962 -24.4148 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-61.3064 -24.7694 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-58.7791 -24.0471 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-58.7002 -24.9167 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-58.677 -25.2096 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.3506 -6.2398 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.3339 -6.3071 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.3919 -6.4077 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.3781 -6.4768 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-57.2671 -26.0981 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-50.5758 -23.3157 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.0796 -6.5654 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.9166 -6.5635 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.8526 -6.6073 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.8131 -6.6626 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.7698 -6.716 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.7824 -6.7967 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.8016 -6.8812 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.8028 -6.9572 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.8245 -7.0439 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-48.9723 -25.2224 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-48.692 -25.3475 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-48.886 -26.2674 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-48.6679 -26.4245 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-48.3878 -26.5464 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-48.1827 -26.7081 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-48.0759 -26.9238 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-43.7592 -24.7577 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-46.8319 -26.7666 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.9095 -26.5059 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-46.556 -27.1507 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-46.39 -27.3258 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-46.1998 -27.486 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-46.1832 -27.7497 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-46.0717 -27.957 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.9093 -28.1333 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.8293 -28.3601 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.7085 -28.5618 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.5801 -28.7589 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.5991 -29.0499 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.4325 -29.2232 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.2686 -29.3977 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.1627 -29.61 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.1178 -29.8628 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-44.9773 -30.0529 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-45.1599 -30.4607 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.7044 -26.3529 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.4989 -26.4596 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.5147 -26.7186 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-36.9179 -26.091 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.8862 -10.6182 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.2961 -27.5693 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.9105 -28.9966 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-40.3506 -29.5863 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.5228 -10.7463 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.4351 -10.7792 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.3848 -10.8397 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.3249 -10.8929 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.4322 -11.0742 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-39.0249 -30.2163 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.9357 -30.4199 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.8793 -30.65 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.8216 -30.8801 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.7231 -31.0786 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.666 -31.3111 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.5865 -31.5265 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.524 -31.7567 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.4601 -31.9869 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.4249 -32.2423 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.3286 -32.4475 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.2609 -32.6779 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-38.0233 -32.7629 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-37.7709 -32.8337 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-37.5391 -32.9209 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-37.2518 -32.9576 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-37.0027 -33.0262 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-36.5854 -32.9416 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-36.5136 -33.1666 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-36.2303 -33.1989 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.3873 -7.7532 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.3191 -7.7577 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.2482 -7.7592 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.203 -7.7843 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.1717 -7.8227 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.1347 -7.8556 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.1116 -7.9019 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0798 -7.94 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0756 -8.0054 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0903 -8.0903 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0824 -8.1533 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0714 -8.2135 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.0518 -8.2655 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-32.052 -33.1908 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-32.0257 -33.4545 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-32.0676 -33.7922 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-32.0564 -34.0769 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-31.8142 -34.1165 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-31.3654 -33.9309 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-31.1299 -33.9724 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-31.1758 -34.3218 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-30.6911 -34.086 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-30.5863 -34.2691 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-30.5763 -34.5602 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-30.3479 -34.6052 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-30.0301 -34.5457 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-29.7694 -34.5491 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-29.7478 -34.8302 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-29.5955 -34.9596 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-29.3925 -35.0286 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-29.2069 -35.1175 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-29.0186 -35.2024 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-28.8548 -35.3165 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.5048 -14.2072 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.3889 -14.1902 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-23.4829 -29.5221 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.1775 -14.1787 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.1108 -14.2211 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.0319 -14.2479 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.972 -14.299 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-27.6213 -36.3238 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-27.4484 -36.4253 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-27.3149 -36.5791 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-27.1527 -36.6948 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-26.9277 -36.7247 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-26.8407 -36.943 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-26.734 -37.1358 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-26.6511 -37.3634 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-26.5374 -37.5496 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-26.4428 -37.7642 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-26.3134 -37.9306 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-19.3065 -28.0911 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.015 -8.8342 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.9436 -8.8118 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.8964 -8.8246 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.8557 -8.847 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.817 -8.8725 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.7996 -8.9305 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.788 -8.9985 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-25.8324 -40.5487 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-25.7698 -40.8427 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-25.6928 -41.1171 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-25.5378 -41.2687 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-25.3861 -41.4263 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-23.361 -38.4978 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-23.3276 -38.8237 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-23.2499 -39.0795 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-23.1029 -39.221 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.8548 -39.1898 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.668 -39.2621 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.3956 -39.1843 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-22.0533 -38.979 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.8353 -38.9897 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.5589 -38.8932 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-21.0489 -38.3671 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-20.6725 -38.0741 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-20.4156 -37.9953 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.7653 -31.5309 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-19.845 -37.7191 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-19.6027 -37.6564 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-19.3595 -37.5888 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-19.1368 -37.558 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.934 -37.5644 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.7054 -37.5173 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.5433 -37.6021 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.3345 -37.5914 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-18.1313 -37.5901 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.9587 -37.6512 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.7709 -37.6797 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.5915 -37.7251 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.3809 -37.7021 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.111 -37.5466 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-17.0111 -37.7633 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.8097 -37.7551 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.5803 -37.6815 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.4873 -37.9183 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.2971 -37.9324 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-16.1222 -37.9816 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-15.9292 -37.9868 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-15.7737 -38.0812 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-15.6015 -38.1352 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-15.4233 -38.1739 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-15.2681 -38.2699 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-15.1153 -38.3725 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.9506 -38.4453 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.7883 -38.5248 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.62 -38.5889 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.4543 -38.6597 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.0705 -38.1397 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-14.0402 -38.5751 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.9008 -38.7169 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.7382 -38.7956 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.5701 -38.8589 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.3915 -38.8918 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.2255 -38.961 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-13.0554 -39.0183 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-12.8067 -38.8375 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-12.578 -38.711 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-12.4887 -39.0147 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-12.3301 -39.1061 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-12.1478 -39.1222 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.1222 -33.1083 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.0232 -16.6902 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.9381 -16.6707 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.4402 -39.2495 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.2807 -39.3404 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-11.1333 -39.4757 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.9422 -39.4561 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.7555 -39.4508 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.5499 -39.3728 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.3959 -39.4864 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.2216 -39.5239 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-10.0673 -39.64 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-9.9018 -39.7139 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-9.7312 -39.7681 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-9.5457 -39.7608 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-9.2987 -39.4903 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-9.1378 -39.58 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-9.0615 -40.0462 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.8546 -39.9404 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.6927 -40.0359 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.5033 -40.0047 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.3207 -40.0032 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-8.1624 -40.1195 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.8676 -39.5532 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.8135 -40.1969 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.6387 -40.2344 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.4667 -40.2866 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.2922 -40.3264 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-7.1216 -40.3887 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.9579 -40.4925 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.7728 -40.4724 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.6005 -40.5285 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.4187 -40.5261 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.2501 -40.6078 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-6.0752 -40.6501 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.8731 -40.5061 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.6691 -40.338 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.581 -41.0087 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.4051 -41.0559 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.2299 -41.1101 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-5.0595 -41.2062 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.7428 -40.0719 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.7072 -41.3147 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.5248 -41.3155 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.3142 -41.0473 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.1488 -41.2018 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-4.0012 -41.5539 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.8159 -41.5282 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.6374 -41.5756 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.4631 -41.6767 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.2892 -41.7926 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-3.1126 -41.8845 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.9322 -41.9328 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.7554 -42.0387 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.5764 -42.1244 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.3877 -42.0494 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.183 -41.6538 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-2.0164 -41.9789 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.855 -42.4869 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.3999 -35.6288 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.243 -35.5955 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.3046 -42.6988 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-1.1204 -42.7861 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.921 -42.2087 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.74125 -42.4662 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.56321 -43.0237 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.33246 -38.0962 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [-0.17992 -41.234 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 -41.6484 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.18101 -41.484 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.37892 -43.4202 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.56955 -43.508 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.76047 -43.5676 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.95278 -43.6654 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.1451 -43.7311 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.3387 -43.8155 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.5338 -43.9224 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.7285 -43.9934 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.9257 -44.1064 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [2.12 -44.1366 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.60697 -11.5818 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.65285 -11.4971 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.69729 -11.4006 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.74294 -11.3351 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.78803 -11.2694 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.83488 -11.2346 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.88175 -11.2036 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.93095 -11.2036 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.98118 -11.215 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.0258 -11.1639 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.0741 -11.1554 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.1306 -11.2284 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.1882 -11.3049 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [1.2481 -11.3967 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.2746 -46.2942 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.4958 -46.4337 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.7188 -46.576 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.9525 -46.7909 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.1837 -46.9697 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.4112 -47.1087 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [6.6624 -47.4052 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.7285 -39.5087 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [5.8835 -39.3675 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [7.4047 -48.1093 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [7.6512 -48.308 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [7.9147 -48.598 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [8.1853 -48.9136 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [8.4456 -49.1508 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [8.7312 -49.5174 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [9.0119 -49.8363 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [9.2833 -50.0884 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [9.5681 -50.3966 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [9.8796 -50.826 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [10.1828 -51.1924 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [10.3609 -50.9255 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [10.5178 -50.5662 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [10.6717 -50.2065 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [10.8608 -50.022 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.0917 -50.0314 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.347 -50.1463 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.5867 -50.1877 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.8557 -50.3496 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.1392 -50.5632 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.4052 -50.6957 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [12.7359 -51.0808 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [13.1432 -51.7516 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [11.6133 -44.9054 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.029 -53.2857 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.2522 -53.1901 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.4986 -53.1801 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.7357 -53.1352 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [14.9918 -53.1569 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.2483 -53.1773 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.489 -53.1403 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [15.5865 -52.619 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [16.5026 -54.8322 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.54212 -1.7459 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.54973 -1.7435 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.55614 -1.7374 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.56251 -1.7312 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.56639 -1.7176 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.58007 -1.7337 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.59768 -1.7607 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.61171 -1.7765 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.61946 -1.7739 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.61024 -1.7233 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+pose [0.62303 -1.7353 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0 0 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.54212 -1.7459 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.54973 -1.7435 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.55614 -1.7374 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.56251 -1.7312 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.56639 -1.7176 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.58007 -1.7337 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.59768 -1.7607 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.61171 -1.7765 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.61946 -1.7739 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.61024 -1.7233 0 45]
+  gui_nose 0
+)
+my_block
+(
+  color "green"
+  pose [0.62303 -1.7353 0 45]
+  gui_nose 0
+)

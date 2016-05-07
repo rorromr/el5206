@@ -43,6 +43,10 @@ def ransac_line(p, tolerance=0.1, L = 5, N = 30):
 			return K
 	return []
 
+def ransac_line_prob(p, tolerance=0.1, N=30, pfail=0.001, pg=0.1):
+	L = math.log(pfail)/math.log(1.0-pg**2)
+	return ransac_line(p, tolerance,L,N)
+
 class Controller:
 	def __init__(self):
 		rospy.init_node('ransac');
@@ -79,7 +83,7 @@ class Controller:
 		pp = numpy.dot(p, m.T)
 		# Plot
 		plt.plot(pp[:,0], pp[:,1], 'ro')
-		plt.axis([-7, 7, -7, 7])
+		plt.axis([-12, 12, -12, 12])
 		
 
 		k = ransac_line(pp)
