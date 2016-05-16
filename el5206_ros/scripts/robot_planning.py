@@ -9,6 +9,10 @@ from sensor_msgs.msg import LaserScan
 from nav_msgs.msg import Odometry     
 from geometry_msgs.msg import Twist
 from std_msgs.msg import String 
+# Dynamic reconfigure
+from dynamic_reconfigure.server import Server as DynamicReconfServer
+from el5206_ros.cfg import ControlParamsConfig
+
 
 class PointPolar:
 	def __init__(self, r = 0.0, theta = 0.0):
@@ -74,6 +78,18 @@ class Robot:
 		self.cmd = Twist()
 		self.rate = rospy.Rate(20.0)
 
+		# Path planning parameters
+		self.reconfig_server = DynamicReconfServer(ControlParamsConfig, self.process_params)
+		self.K_att = 3.0
+		self.K_rep = 1.0
+		self.R_max = 0.5
+		self.goal = (0.0, 0.0)
+
+	def process_params(self, config, level):
+		self.K_att = config['K_att']
+		self.K_rep = config['K_rep']
+		self.R_max = config['R_max']
+		return config
 
 	#########################################
 	############### FUNCIONES ###############
@@ -240,29 +256,48 @@ class Robot:
 		self.cmd.angular.z = ang
 		self.cmd_pub.publish(self.cmd)
 
-	def range_filter_callback(self, msg):
-		p = []
+	def calc_repulsion(self, msg):
+		F = 0
+		S = 0
+		for i,r in enumerate(msg.ranges):
+			if r < msg.range_max*self.R_max:
+				angle = msg.angle_min+msg.angle_increment*i
+				F += 1/(r**2)*math.cos(angle)
+				S += 1/(r**2)*math.sin(angle)
+		theta_rob = self.angle*math.pi/180
+		X_rep = self.K_rep*(F*math.cos(theta_rob) - S*math.sin(theta_rob))
+		Y_rep = self.K_rep*(F*math.sin(theta_rob) + S*math.cos(theta_rob))
+		return (X_rep, Y_rep)
+
+	def calc_atractive(self):
+		X_att = self.K_att*(self.goal[0] - self.pose_x)
+		Y_att = self.K_att*(self.goal[1] - self.pose_y)
+		return (X_att, Y_att)
+
+	def apply_force(self, range_msg):
+		(X_att, Y_att) = self.calc_atractive()
+		(X_rep, Y_rep) = self.calc_repulsion(range_msg)
+
+		F = numpy.array([
+			X_att - X_rep,
+			Y_att - Y_rep
+			])
+
 		theta = self.angle*math.pi/180.0
 		# Rotation matrix
-		m = numpy.array([
-			[math.cos(theta), -math.sin(theta), self.pose_x],
-			[math.sin(theta),  math.cos(theta), self.pose_y],
-			[0.0,                          0.0,               1.0]])
+		R = numpy.array([
+			[math.cos(theta), -math.sin(theta)],
+			[math.sin(theta),  math.cos(theta)]
+			])
+		print "Global: " + str(F)
+		F_rob = numpy.dot(F, R)
+		print "Robot: " + str(F_rob)
+		self.raw_cmd(F_rob[0], F_rob[1])
 
-		for i,r in enumerate(msg.ranges):
-			if r < msg.range_max*0.9:
-				angle = msg.angle_min+msg.angle_increment*i
-				p.append(PointPolar(r, angle).get_cartesian())
 
-		# Calc force
-		K = 1
-		f_eq = PointCartesian.sum(p).get_polar()
-		# Proportional force
-		K_l = 1.0
-		K_a = 1.0
-		# Send command
-		self.raw_cmd(lin = f_eq.r*K_l, ang = f_eq.theta*K_a)
-		print "command: %f, %f" % (f_eq.r*K_l, f_eq.theta*K_a)
+	def range_filter_callback(self, msg):
+		self.apply_force(msg)
+
 
 class Controller:
 	def __init__(self):
